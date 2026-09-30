@@ -10,4 +10,5 @@ btn.addEventListener('click',() => {
 
     let li = document.createElement('li')
     li.innerText = input.value
+    list.append(li)
 })
